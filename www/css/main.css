@@ -1,0 +1,58 @@
+*
+{
+ /*-webkit-transition: 750ms*/
+}
+
+.checkbox-container
+{
+	display: inline;
+	float: left;
+	line-height: 1.33em;
+	border: 1px transparent solid;
+	padding-right: 1em;
+}
+
+.checkbox-container .ui-btn-inner
+{
+	font-size: 1em;
+	width: 1.5em;
+	padding: 0;
+	margin: 0;
+}
+
+.item-label
+{
+	display: inline;
+	float: left;
+	line-height: 1.5em;
+	border: 1px transparent solid;
+}
+
+.action-buttons
+{
+	display: inline;
+	float: right;
+}
+
+.grocery-item .ui-btn
+{
+	padding: 0;
+	margin: 0;
+}
+
+.grocery-item
+{
+	overflow: auto;
+}
+
+.checked-off
+{
+	font-style: italic;
+	text-decoration: line-through;
+	color: #888888;
+}
+
+.nodisp
+{
+	display: none;
+}
